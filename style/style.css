@@ -484,9 +484,7 @@ h5 {
     padding: 2px;
     color: #423d3ddd;
     
-
 }
-
 
 .card__title  {
     justify-content: center;
@@ -554,6 +552,18 @@ h5 {
     height:180px;
 }
 /* ----- QUERIES SECTION ------ */
+
+@media screen and (max-width:450px) {
+    .card {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    margin: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+}
+
 @media screen and (min-width:600px){
     main {
     background-image: url(../img/Captura_de_pantalla_2025-11-17_174933-removebg-preview.png);
