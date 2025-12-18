@@ -154,7 +154,7 @@ li:nth-child(1){
     }
 
     .header__nav-item img:hover{
-        background-color: #ffffff56;
+        background-color: var(--color-principal);
         border-radius: 3px;
     }
 
