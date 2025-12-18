@@ -27,7 +27,7 @@ body, div, ul, nav, header, footer, a, li, label {
         animation-timeline: scroll();
         position: sticky;
         top: 0;
-        animation-range: 10px 100px;
+        animation-range: 10px 80px;
     }
 
 .header{
@@ -614,8 +614,13 @@ footer {
     padding: 30px ;
 }
 
-.footer a {
-    text-decoration: none;
+a {
+    text-decoration: none; 
+    color: #e2eaff; 
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /*-------- FOOTER QUERIES --------*/
