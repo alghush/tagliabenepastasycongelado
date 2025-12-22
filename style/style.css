@@ -651,7 +651,7 @@ li:hover {
     scale: 1.2;
 }
 
-li:nth-child(1){
+.form__nav-item{
     display: block;
 }
 
