@@ -7,9 +7,6 @@ body,main,div,ul,li,a,h1,h2,h3,h4,p {
     padding:0;
 }
 
-html, body {
-    overflow-x: hidden;
-}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -320,10 +317,11 @@ h1 {
 
     .profile__wrapper{
         flex-direction: column;
+        width: 350px;
     }
 
     .profile__video-container{
-        max-width:300px;
+        max-width:200px;
         min-width: 100px;
     }
 
@@ -331,6 +329,13 @@ h1 {
     margin: 10px;
     justify-items: center;
 }
+
+    .profile__tittle span {
+    color: var(--text-secundary);
+    font-size: 0.9rem;
+
+}
+
 }
 
 /*--- SECTION PRODUCTOS PROMOS ---*/
