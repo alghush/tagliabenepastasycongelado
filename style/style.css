@@ -7,6 +7,10 @@ body,main,div,ul,li,a,h1,h2,h3,h4,p {
     padding:0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--bc-color);
@@ -256,7 +260,6 @@ body {
     min-width: auto;
     align-items: center;
     justify-content: center;
-    margin: 50px;
     color: var(--text-color-dark);
     /*border: 2px solid #000;*/
     border-radius: 40px;
