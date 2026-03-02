@@ -15,7 +15,7 @@ body {
 
 :root{ 
     --color-principal:#540707;
-    --color-traslucer:#540707b4;
+    --color-traslucer:#54070786;
     --bc-color:#e2eaff; 
     --text-color:#101632dd; 
     --text-color-dark:#fff; 
@@ -160,6 +160,7 @@ body {
     .header > label  {
         display: block;
         cursor: pointer;
+        margin-bottom: 0.5rem;
     }
 
     .header__nav {
@@ -169,7 +170,6 @@ body {
         padding-right: 0;
         overflow: hidden;
         flex-direction: column;
-        background-color: var(--color-principal);
         border-radius: 0 0 30px 30px;
         transition: max-height 0.4s ease;
         
@@ -222,6 +222,7 @@ body {
 
     #open-menu:checked ~ .header__nav {
         max-height: 1500px;
+        background-color: var(--color-traslucer);
     }
 
 
@@ -236,7 +237,7 @@ body {
 /* HEADER ANIMACIONES*/
 @keyframes header-movement {
     from {
-        padding: 10px 0;
+        padding: 9px 0;
         background-color: var(--color-principal);
 
     }
